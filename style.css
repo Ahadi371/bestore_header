@@ -4,13 +4,13 @@
     font-family: sans-serif;
 }
 .highlight{
-    background-color: #fbb904;
+    background-color: #fbca04;
     padding: 10px;
     text-align: center;
 }
 .navbar{
     padding: 10px;
-    background-color: #f3f2f3;
+    background-color: rgb(240, 246, 255);
     display:flex;
     justify-content: space-between;
 }
@@ -67,3 +67,22 @@ list-style: none;
     text-decoration: none;
     padding-left: 10vh;
 }
+.search_box{
+    border: 1px solid;
+    max-height: 35px;
+    border-radius: 5px;
+}
+
+.search_box form{
+    padding: 7px 5px 0px 5px;
+}
+
+.search_box form input{
+    border: 0;
+}
+
+.search_box form input:focus {
+    outline-color: #ffffff ;
+}
+
+
